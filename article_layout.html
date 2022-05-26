@@ -1,0 +1,133 @@
+<html>
+
+<head>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/tocbot.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/tocbot.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="container1">
+            <div class="left-sidebar"></div>
+            <div class="article-content">
+                <div class="gu9">
+                    <h2>
+                        Finding your way around Canvas
+                    </h2>
+                    <p>
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/74677642?h=a27cbef13b"
+                            width="640" height="360" frameborder="0" allowfullscreen="">
+                        </iframe>
+                    </p>
+                    <h3>
+                        Dashboard
+                    </h3>
+                    <p>
+                        The dashboard is the first thing you see when you log in to Canvas and shows the global
+                        navigation bar, your courses, your to do list and any recent feedback you have received. The
+                        dashboard will also display global announcements to alert you of any important updates. You
+                        can
+                        customise your display
+                        by selecting card view, list view or recent activity mode through the options menu on the
+                        top
+                        right. Learn more about the <a
+                            href="https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Dashboard-as-a-student/ta-p/512">general
+                            dashboard (Canvas Guides)</a> and the <a
+                            href="https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-To-Do-list-and-sidebar-in-the-Dashboard-as-a/ta-p/511">dashboard
+                            sidebar (Canvas Guides)</a>
+                        through the Canvas guides.
+                    </p>
+                    <p><em>(Canvas Dashboard screenshot; placeholder image; final option should include highlighted,
+                            numbered areas to correlate with the text)</em>
+                    </p>
+                    <p>
+                        Your course content as well as assessment submission points can be accessed in <a
+                            href="https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Course-Home-Page-as-a-student/ta-p/504">your
+                            courses (Canvas Guides)</a>. Moreover Canvas offers a whole host of other functions to
+                        help
+                        with your studies, including a calendar to help you stay organised, and an inbox to send
+                        messages to your instructors and peers. Learn more about Canvas and how it can help you
+                        through
+                        the <a
+                            href="https://community.canvaslms.com/t5/Student-Guide/tkb-p/student#GlobalNavigation">Canvas
+                            Guides</a>.
+                    </p>
+                    <h1>
+                        Welcome to Canvas
+                    </h1>
+                    <p>
+                        Canvas offers all your study needs in one space, including course content, lecture
+                        recordings,
+                        online assessment submissions points as well as marks and feedback.
+                    </p>
+                    <h2>
+                        Accessing Canvas
+                    </h2>
+                    <p>
+                        You can access Canvas by through the URL <a
+                            href="https://lms.griffith.edu.au">https://lms.griffith.edu.au/</a> or by simply
+                        clicking
+                        the link on the top right of your myGriffith site.
+                    </p>
+                    <p>
+                        You will lose access to the Canvas system if you:
+                    </p>
+                    <ul type="disc">
+                        <li>
+                            Have graduated from your program
+                        </li>
+                        <li>
+                            Have deferred your study
+                        </li>
+                        <li>
+                            Have had your enrolment suspended for any reason
+                        </li>
+                        <li>
+                            Are a HDR student and have submitted your final thesis
+                        </li>
+                    </ul>
+                    <p>
+                        If one of your enrolled courses is not coming up in Canvas, there could be a <a
+                            href="https://intranet.secure.griffith.edu.au/computing/using-learning-at-griffith/students/getting-started/getting-access">number
+                            of reasons as to why.</a>
+                    </p>
+                </div>
+            </div>
+            <div class="right-sidebar">
+                <div class="js-toc is-position-fixed"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        tocbot.init({
+            // Where to render the table of contents.
+            tocSelector: '.js-toc',
+            // Where to grab the headings to build the table of contents.
+            contentSelector: '.article-content',
+            // Which headings to grab inside of the contentSelector element.
+            headingSelector: 'h2, h3, h4',
+            // For headings inside relative or absolute positioned containers within content.
+            hasInnerContainers: true,
+            scrollSmooth: true,
+            // Smooth scroll duration.
+            scrollSmoothDuration: 420,
+            // Element to add the positionFixedClass to.
+            positionFixedSelector: '.js-toc',
+            // Fixed position class to add to make sidebar fixed after scrolling
+            // down past the fixedSidebarOffset.
+            positionFixedClass: 'is-position-fixed',
+            // fixedSidebarOffset can be any number but by default is set
+            // to auto which sets the fixedSidebarOffset to the sidebar
+            // element's offsetTop from the top of the document on init.
+            fixedSidebarOffset: 'auto',
+            // The sections that are hidden will open
+// and close as you scroll to headings within them.
+collapseDepth: 0,
+// element's offsetTop from the top of the document on init.
+fixedSidebarOffset: 'auto',
+        });
+    </script>
+</body>
+
+</html>
